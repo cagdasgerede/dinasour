@@ -1,1 +1,1 @@
-web: java -jar build/libs/dinasour-all.jar -Dserver.port=$PORT
+web: java -jar build/libs/dinasour-all.jar
