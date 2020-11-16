@@ -27,6 +27,7 @@ public class App {
 
         int port = Integer.parseInt(System.getenv("PORT"));
         port(port);
+        logger.error(port);
         
 
         System.out.println(new App().getGreeting());
